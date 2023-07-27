@@ -4,7 +4,7 @@
     "mj_tip": true,
     "mj_admin_password": "",
     "discordapp_proxy": "",
-    "daily_limit": 3,
+    "daily_limit": 11,
     "imagine_prefix": [
         "/i",
         "/mj"

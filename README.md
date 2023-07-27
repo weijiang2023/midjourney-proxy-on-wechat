@@ -1,3 +1,7 @@
+## 插件简介
+
+* 算法妈妈智能绘画服务
+
 ## 插件描述
 
 使用代理 MidJourney 的discord频道[`midjourney-proxy`](https://github.com/novicezk/midjourney-proxy)的api在[`chatgpt-on-wechat`](https://github.com/zhayujie/chatgpt-on-wechat)进行请求绘图发送
