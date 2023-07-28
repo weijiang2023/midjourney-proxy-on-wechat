@@ -36,7 +36,7 @@ class _mjApi:
         code = rj["code"]
         id = rj['result']
         if code == 1:
-            msg = "✅ 您的需求已提交\n"
+            msg = "✅ 您的设计需求已提交\n"
             msg += f"🚀 正在快速创作中，请稍后\n"
             msg += f"📨 ID: {id}\n"
             return True, msg, rj["result"]
@@ -307,4 +307,11 @@ class _mjApi:
         help_text = "🎨欢迎使用AI原优舍Tshirt图案定制服务！🎨\n"
         help_text += f"您只需输入文字描述图案需求，我们即能为您定制充满个性的Tshirt。\n"
         help_text += f"让我们开始创作属于自己的Tshirt吧！\n"
+        help_text += f"以下是一些创作的例子及相应模版\n"
+        help_text += f"@bot /mj a tshirt logo of two cats, with background color to be yellow\n"
+        help_text += f"@bot /mj a tshirt logo of two cats, with background color to be orange\n"
+        help_text += f"@bot /mj a tshirt logo of two cats, with background color to be red\n"
+        help_text += f"@bot /mj a tshirt logo of two cats, with background color to be purple\n"
+        help_text += f"@bot /mj a tshirt logo of two cats, with background color to be blue\n"
+        help_text += f"@bot /mj a tshirt logo of two cats, with background color to be green\n"
         return help_text
